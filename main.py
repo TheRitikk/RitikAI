@@ -60,7 +60,7 @@ def say(text):
 def takeCommand():
     r = sr.Recognizer()
     with sr.Microphone() as source:
-        # r.pause_threshold = 1 #Waiting time to take command
+        r.pause_threshold = 1 #Waiting time to take command
         audio = r.listen(source)
         try:
             print("Recognizing......")
