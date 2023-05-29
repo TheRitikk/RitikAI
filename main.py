@@ -150,7 +150,7 @@ if __name__ == '__main__':
             quit()
 
         elif "clear chat" in query.lower() or "reset chat" in query.lower():
-            chatstr += ""
+            chatstr = ""
             say("Chat has been reset.")
             
         elif "log off" in query.lower() or "sign out" in query.lower():
