@@ -143,7 +143,7 @@ if __name__ == '__main__':
             statement =query.replace("wikipedia", "")
             results = wikipedia.summary(statement)
             say("According to Wikipedia")
-#             print(results)
+            print(results)
             say(results)
             
         elif "Close".lower() in query.lower():
