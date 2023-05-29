@@ -154,15 +154,15 @@ if __name__ == '__main__':
             say("Chat has been reset.")
             
         elif "log off" in query.lower() or "sign out" in query.lower():
-            say("Ok , your pc will log off after 10 second, make sure you exit from all applications")
+            say("Ok , your pc will log off, make sure you exit from all applications")
             subprocess.call(["shutdown", "/l"])
             
         elif "shut down my pc" in query.lower():
-            say("Ok , your pc will shut down after 10 second, make sure you exit from all applications")
+            say("Ok , your pc will shut down, make sure you exit from all applications")
             subprocess.call(["shutdown", "/s"])
             
         elif "restart my pc" in query.lower():
-            say("Ok , your pc will restart after 10 second, make sure you exit from all applications")
+            say("Ok , your pc will restart, make sure you exit from all applications")
             subprocess.call(["shutdown", "/r"])
 
         else:
