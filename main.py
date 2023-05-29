@@ -136,7 +136,7 @@ if __name__ == '__main__':
                       str(weather_description))
             
             else:
-                say("Some error accured.\n Please check my code and api kay,\n try again?")
+                say("There is some error.\n Please check my code and api kay,\n try again?")
         
         elif 'wikipedia' in query.lower():
             say('Searching Wikipedia...')
